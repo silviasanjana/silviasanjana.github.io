@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Silvia Sanjana | Computer Science Researcher</title>
+  <meta name="description" content="Silvia Sanjana is a Ph.D. student in Computer Science at Kennesaw State University and a researcher in AI, deep learning, and medical image analysis." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👩‍🔬</text></svg>" />
+</head>
+<body>
+
+  <!-- ===== NAV ===== -->
+  <header class="nav" id="nav">
+    <div class="nav__inner container">
+      <a href="#home" class="nav__brand">Silvia<span>Sanjana</span></a>
+      <nav class="nav__links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <a href="assets/Silvia_Sanjana_CV.pdf" class="nav__cv" download>CV ↓</a>
+      </nav>
+      <div class="nav__actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+          <svg class="icon-sun" viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M12 17a5 5 0 1 0 0-10 5 5 0 0 0 0 10Zm0 2a7 7 0 1 1 0-14 7 7 0 0 1 0 14Zm0-18a1 1 0 0 1 1 1v1a1 1 0 1 1-2 0V2a1 1 0 0 1 1-1Zm0 18a1 1 0 0 1 1 1v1a1 1 0 1 1-2 0v-1a1 1 0 0 1 1-1ZM4.2 4.2a1 1 0 0 1 1.4 0l.7.7a1 1 0 1 1-1.4 1.4l-.7-.7a1 1 0 0 1 0-1.4Zm12.8 12.8a1 1 0 0 1 1.4 0l.7.7a1 1 0 0 1-1.4 1.4l-.7-.7a1 1 0 0 1 0-1.4ZM1 12a1 1 0 0 1 1-1h1a1 1 0 1 1 0 2H2a1 1 0 0 1-1-1Zm18 0a1 1 0 0 1 1-1h1a1 1 0 1 1 0 2h-1a1 1 0 0 1-1-1ZM4.2 19.8a1 1 0 0 1 0-1.4l.7-.7a1 1 0 0 1 1.4 1.4l-.7.7a1 1 0 0 1-1.4 0Zm12.8-12.8a1 1 0 0 1 0-1.4l.7-.7a1 1 0 1 1 1.4 1.4l-.7.7a1 1 0 0 1-1.4 0Z"/></svg>
+          <svg class="icon-moon" viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M21.5 14.1A9 9 0 1 1 9.9 2.5a7 7 0 0 0 11.6 11.6Z"/></svg>
+        </button>
+        <button class="nav__burger" id="navBurger" aria-label="Menu"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="hero__bg" aria-hidden="true"></div>
+    <div class="container hero__inner">
+      <div class="hero__text">
+        <p class="hero__eyebrow reveal">Ph.D. Researcher · VR / MR · AI &amp; Deep Learning</p>
+        <h1 class="hero__name reveal">Silvia<br />Sanjana</h1>
+        <p class="hero__lead reveal">
+          I build and study intelligent, immersive systems. Right now my work centers on
+          <strong>virtual &amp; mixed reality (VR/MR)</strong>, and it builds on a research
+          background in <strong>deep learning</strong> and <strong>medical image analysis</strong>.
+          I am a Ph.D. researcher and Graduate Research Assistant in Computer Science at
+          Kennesaw State University.
+        </p>
+        <div class="hero__cta reveal">
+          <a href="#publications" class="btn btn--primary">View Publications</a>
+          <a href="assets/Silvia_Sanjana_CV.pdf" class="btn btn--ghost" download>
+            <svg viewBox="0 0 24 24" width="16" height="16" style="margin-right:8px"><path fill="currentColor" d="M12 3a1 1 0 0 1 1 1v8.59l2.3-2.3a1 1 0 1 1 1.4 1.42l-4 4a1 1 0 0 1-1.4 0l-4-4a1 1 0 1 1 1.4-1.42l2.3 2.3V4a1 1 0 0 1 1-1ZM5 18a1 1 0 0 1 1-1h12a1 1 0 1 1 0 2H6a1 1 0 0 1-1-1Z"/></svg>
+            Download CV
+          </a>
+        </div>
+        <div class="hero__socials reveal">
+          <a href="https://scholar.google.com/citations?user=Y7LLV38AAAAJ" target="_blank" rel="noopener" aria-label="Google Scholar">Scholar</a>
+          <a href="https://orcid.org/0000-0002-7100-1225" target="_blank" rel="noopener" aria-label="ORCID">ORCID</a>
+          <a href="https://www.linkedin.com/in/silvia-sanjana-673a10172/" target="_blank" rel="noopener" aria-label="LinkedIn">LinkedIn</a>
+          <a href="https://github.com/silvia-98" target="_blank" rel="noopener" aria-label="GitHub">GitHub</a>
+        </div>
+      </div>
+      <div class="hero__photo reveal">
+        <div class="hero__photo-frame">
+          <img src="assets/silvia-avatar.jpg" alt="Portrait of Silvia Sanjana" />
+        </div>
+        <div class="hero__badge">
+          <span class="hero__badge-num">9+</span>
+          <span class="hero__badge-label">Peer-reviewed<br />publications</span>
+        </div>
+      </div>
+    </div>
+    <a href="#about" class="hero__scroll" aria-label="Scroll down"><span></span></a>
+  </section>
+
+  <!-- ===== STATS ===== -->
+  <section class="stats">
+    <div class="container stats__grid">
+      <div class="stat"><span class="stat__num" data-count="9">0</span><span class="stat__label">Publications</span></div>
+      <div class="stat"><span class="stat__num" data-count="177">0</span><span class="stat__label">Citations</span></div>
+      <div class="stat"><span class="stat__num" data-count="6">0</span><span class="stat__label">h-index</span></div>
+      <div class="stat"><span class="stat__num" data-count="3" data-suffix=".87">0</span><span class="stat__label">Graduate CGPA / 4.00</span></div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section__head reveal">
+        <span class="section__kicker">01 · About</span>
+        <h2 class="section__title">Researcher at the intersection of AI and real-world impact</h2>
+      </div>
+      <div class="about__grid">
+        <div class="about__body reveal">
+          <p>
+            I'm a Computer Science researcher, Ph.D. student, and
+            <strong>Graduate Research Assistant</strong> at
+            <a href="https://www.kennesaw.edu/" target="_blank" rel="noopener">Kennesaw State University</a>,
+            where I also earned my M.S. with a CGPA of 3.87/4.00. My research background brings deep learning and
+            computer vision to problems that matter, from early diagnosis of diabetic retinopathy and
+            glaucoma to COVID-19 detection from medical scans.
+          </p>
+          <p>
+            My doctoral research centers on <strong>virtual reality (VR)</strong> and
+            <strong>mixed reality (MR)</strong>, where I design and study immersive systems and how
+            people perceive, interact, and learn within them. Earlier graduate work explored
+            <strong>AI-driven interviewing systems</strong> for fairly assessing technical and
+            professional skills.
+          </p>
+          <p>
+            Before academia, I spent over two years as a <strong>Business Analyst</strong> at
+            Brain Station 23, bridging engineering and business teams to ship ERP systems and
+            data-driven solutions. That experience keeps my research grounded in practical outcomes
+            and clear communication.
+          </p>
+        </div>
+        <aside class="about__card reveal">
+          <h3>Quick facts</h3>
+          <ul class="about__facts">
+            <li><span>Location</span><strong>Marietta, Georgia, USA</strong></li>
+            <li><span>Role</span><strong>Ph.D. Student &amp; Graduate Research Assistant</strong></li>
+            <li><span>Institution</span><strong>Kennesaw State University</strong></li>
+            <li><span>Focus</span><strong>VR / MR · Deep Learning · Medical Imaging</strong></li>
+            <li><span>English</span><strong>IELTS 7.0 (Overall)</strong></li>
+          </ul>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== RESEARCH INTERESTS ===== -->
+  <section class="section section--alt" id="research">
+    <div class="container">
+      <div class="section__head reveal">
+        <span class="section__kicker">02 · Research</span>
+        <h2 class="section__title">Focus areas</h2>
+      </div>
+      <div class="research__grid">
+        <article class="research__card research__card--lead reveal">
+          <div class="research__icon">🥽</div>
+          <span class="research__tag">Current Ph.D. focus</span>
+          <h3>Virtual &amp; Mixed Reality (VR / MR)</h3>
+          <p>Designing and studying immersive systems, exploring how people perceive, interact, and learn within virtual and mixed-reality environments.</p>
+        </article>
+        <article class="research__card reveal">
+          <div class="research__icon">🧠</div>
+          <h3>Deep Learning &amp; Transfer Learning</h3>
+          <p>Designing and adapting CNN and transfer-learning architectures for classification on limited, real-world datasets.</p>
+        </article>
+        <article class="research__card reveal">
+          <div class="research__icon">🩺</div>
+          <h3>Medical Image Analysis</h3>
+          <p>Automated diagnosis from retinal fundus images, CT scans, and chest X-rays, covering diabetic retinopathy, glaucoma, and COVID-19.</p>
+        </article>
+        <article class="research__card reveal">
+          <div class="research__icon">🤖</div>
+          <h3>AI for Human Interaction</h3>
+          <p>Systematic study of AI-driven interviewing systems for assessing technical and professional skills.</p>
+        </article>
+        <article class="research__card reveal">
+          <div class="research__icon">👁️</div>
+          <h3>Computer Vision</h3>
+          <p>Image classification and recognition pipelines spanning medical imaging, face-mask detection, and sign-language recognition.</p>
+        </article>
+        <article class="research__card reveal">
+          <div class="research__icon">💬</div>
+          <h3>Natural Language Processing</h3>
+          <p>Emotion and text classification with bi-directional recurrent neural networks and sequence models.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EDUCATION ===== -->
+  <section class="section" id="education">
+    <div class="container">
+      <div class="section__head reveal">
+        <span class="section__kicker">03 · Education</span>
+        <h2 class="section__title">Academic journey</h2>
+      </div>
+      <div class="timeline">
+        <div class="timeline__item reveal">
+          <div class="timeline__date">Fall 2026 – Present</div>
+          <div class="timeline__content">
+            <h3>Doctor of Philosophy (Ph.D.) in Computer Science</h3>
+            <p class="timeline__org">Kennesaw State University · Marietta, GA, USA</p>
+          </div>
+        </div>
+        <div class="timeline__item reveal">
+          <div class="timeline__date">Spring 2025 – Summer 2026</div>
+          <div class="timeline__content">
+            <h3>Master of Science (M.S.) in Computer Science</h3>
+            <p class="timeline__org">Kennesaw State University · Marietta, GA, USA</p>
+            <p class="timeline__note">Ongoing CGPA: <strong>3.87 / 4.00</strong></p>
+          </div>
+        </div>
+        <div class="timeline__item reveal">
+          <div class="timeline__date">2017 – 2022</div>
+          <div class="timeline__content">
+            <h3>B.Sc. in Computer Science &amp; Engineering</h3>
+            <p class="timeline__org">Ahsanullah University of Science and Technology · Dhaka, Bangladesh</p>
+            <p class="timeline__note">CGPA: 3.164 / 4.00 · Top 5% Merit Scholarship (Spring 2020)</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PUBLICATIONS ===== -->
+  <section class="section section--alt" id="publications">
+    <div class="container">
+      <div class="section__head reveal">
+        <span class="section__kicker">04 · Publications</span>
+        <h2 class="section__title">Peer-reviewed research</h2>
+        <p class="section__sub">A selection of journal and conference papers in AI, deep learning, and medical imaging.</p>
+      </div>
+
+      <div class="pub__metrics reveal">
+        <div class="pub__metric"><span class="pub__metric-num">177</span><span class="pub__metric-label">Total citations</span></div>
+        <div class="pub__metric"><span class="pub__metric-num">6</span><span class="pub__metric-label">h-index</span></div>
+        <div class="pub__metric"><span class="pub__metric-num">6</span><span class="pub__metric-label">i10-index</span></div>
+        <a class="pub__metric pub__metric--link" href="https://scholar.google.com/citations?user=Y7LLV38AAAAJ" target="_blank" rel="noopener">
+          <span class="pub__metric-num">↗</span><span class="pub__metric-label">Google Scholar</span>
+        </a>
+      </div>
+
+      <div class="pub__controls reveal">
+        <div class="pub__filters" id="pubFilters">
+          <button class="pub__filter is-active" data-year="all">All</button>
+          <button class="pub__filter" data-year="2025">2025</button>
+          <button class="pub__filter" data-year="2024">2024</button>
+          <button class="pub__filter" data-year="2022">2022</button>
+          <button class="pub__filter" data-year="2021">2021</button>
+        </div>
+        <div class="pub__sort" id="pubSort">
+          <span class="pub__sort-label">Sort by</span>
+          <button class="pub__sort-btn is-active" data-sort="year">Newest</button>
+          <button class="pub__sort-btn" data-sort="cites">Most cited</button>
+        </div>
+      </div>
+
+      <ol class="pub__list" id="pubList">
+        <!-- populated by script.js -->
+      </ol>
+    </div>
+  </section>
+
+  <!-- ===== EXPERIENCE ===== -->
+  <section class="section" id="experience">
+    <div class="container">
+      <div class="section__head reveal">
+        <span class="section__kicker">05 · Experience</span>
+        <h2 class="section__title">Professional &amp; research experience</h2>
+      </div>
+      <div class="timeline">
+        <div class="timeline__item reveal">
+          <div class="timeline__date">Fall 2026 – Present</div>
+          <div class="timeline__content">
+            <h3>Graduate Research Assistant, Ph.D.</h3>
+            <p class="timeline__org">Department of Computer Science · <a href="https://www.kennesaw.edu/" target="_blank" rel="noopener">Kennesaw State University</a></p>
+            <p>Conducting doctoral research on virtual reality (VR) and mixed reality (MR), building and evaluating immersive systems and the way people interact within them.</p>
+          </div>
+        </div>
+        <div class="timeline__item reveal">
+          <div class="timeline__date">Spring 2025 – Summer 2026</div>
+          <div class="timeline__content">
+            <h3>Graduate Research Assistant, M.S.</h3>
+            <p class="timeline__org">Department of Computer Science · Kennesaw State University</p>
+            <p>Served as a Graduate Research Assistant throughout the M.S. program, contributing to AI and human–computer interaction research, including a systematic review of AI-driven interviewing systems.</p>
+          </div>
+        </div>
+        <div class="timeline__item reveal">
+          <div class="timeline__date">Nov 2022 – Dec 2024</div>
+          <div class="timeline__content">
+            <h3>Business Analyst</h3>
+            <p class="timeline__org"><a href="https://brainstation-23.com/" target="_blank" rel="noopener">Brain Station 23 Ltd.</a></p>
+            <p>Results-driven analyst bridging technical and business teams. Identified effective solutions for ERP implementations and facilitated cross-functional projects delivered on time and within budget.</p>
+          </div>
+        </div>
+        <div class="timeline__item reveal">
+          <div class="timeline__date">Jul 2022 – Oct 2022</div>
+          <div class="timeline__content">
+            <h3>Business Analyst Trainee</h3>
+            <p class="timeline__org">Brain Station 23 Ltd.</p>
+            <p>Trained in requirement gathering, process analysis, ERP implementation, system testing &amp; upgrades, user training, and documentation.</p>
+          </div>
+        </div>
+        <div class="timeline__item reveal">
+          <div class="timeline__date">Undergraduate Research</div>
+          <div class="timeline__content">
+            <h3>Diabetic Retinopathy Detection: A Comparative Study</h3>
+            <p class="timeline__org">Ahsanullah University of Science and Technology</p>
+            <p>Modified six deep-learning and machine-learning models to detect diabetic retinopathy from retinal fundus images using digital image processing. Supervised by Dr.-Ing. Nusrat Jahan Lisa.</p>
+            <a class="link-arrow" href="https://github.com/shadhin39/A_Comparative_Study_of_Diabetic_Retinopathy_Detection_Using_Machine_Learning_and_Deep_Learning" target="_blank" rel="noopener">View repository →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section class="section section--alt" id="projects">
+    <div class="container">
+      <div class="section__head reveal">
+        <span class="section__kicker">06 · Projects</span>
+        <h2 class="section__title">Selected projects</h2>
+      </div>
+      <div class="projects__grid">
+        <article class="project reveal">
+          <div class="project__year">2021</div>
+          <h3>Text Classifier with Bi-directional RNN</h3>
+          <p>An NLP system that classifies emotion from text using a bi-directional recurrent neural network.</p>
+          <div class="project__tags"><span>NLP</span><span>Bi-RNN</span><span>Deep Learning</span></div>
+          <a class="link-arrow" href="https://github.com/silvia-98/Text_Classifier-Detection-using-Bi-directional-RNN" target="_blank" rel="noopener">View repository →</a>
+        </article>
+        <article class="project reveal">
+          <div class="project__year">2020</div>
+          <h3>Voice Server</h3>
+          <p>A desktop application connecting two computers over socket ports to share files, place calls, and exchange messages.</p>
+          <div class="project__tags"><span>Sockets</span><span>Networking</span><span>Desktop</span></div>
+        </article>
+        <article class="project reveal">
+          <div class="project__year">2019</div>
+          <h3>Orderista: E-commerce Platform</h3>
+          <p>A web store for ordering and reviewing mobile phones, with user accounts and a job-application portal. Built with HTML, CSS, PHP, and a relational database.</p>
+          <div class="project__tags"><span>PHP</span><span>MySQL</span><span>Web</span></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section class="section" id="skills">
+    <div class="container">
+      <div class="section__head reveal">
+        <span class="section__kicker">07 · Skills</span>
+        <h2 class="section__title">Tools &amp; expertise</h2>
+      </div>
+      <div class="skills__cols">
+        <div class="skills__col reveal">
+          <h3>AI, Vision &amp; XR</h3>
+          <div class="chips"><span>Virtual Reality (VR)</span><span>Mixed Reality (MR)</span><span>Deep Learning</span><span>CNNs</span><span>Transfer Learning</span><span>Bi-directional RNN</span><span>Computer Vision</span><span>NLP</span><span>Human–Computer Interaction</span></div>
+        </div>
+        <div class="skills__col reveal">
+          <h3>Programming &amp; Tools</h3>
+          <div class="chips"><span>Python</span><span>PHP</span><span>HTML/CSS</span><span>Digital Image Processing</span><span>Git &amp; GitHub</span><span>Databases</span></div>
+        </div>
+        <div class="skills__col reveal">
+          <h3>Professional</h3>
+          <div class="chips"><span>Business Analysis</span><span>Requirement Gathering</span><span>ERP Implementation</span><span>System Testing</span><span>Technical Writing</span><span>Cross-functional Collaboration</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="section section--contact" id="contact">
+    <div class="container">
+      <div class="contact__card reveal">
+        <div class="contact__left">
+          <span class="section__kicker">08 · Contact</span>
+          <h2 class="section__title">Let's collaborate</h2>
+          <p>Open to research collaborations, academic discussion, and opportunities in AI and machine learning. Feel free to reach out.</p>
+          <div class="contact__socials">
+            <a href="https://scholar.google.com/citations?user=Y7LLV38AAAAJ" target="_blank" rel="noopener">Google Scholar</a>
+            <a href="https://orcid.org/0000-0002-7100-1225" target="_blank" rel="noopener">ORCID</a>
+            <a href="https://www.linkedin.com/in/silvia-sanjana-673a10172/" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="https://github.com/silvia-98" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </div>
+        <div class="contact__right">
+          <a class="contact__item" href="mailto:ssanjana@students.kennesaw.edu">
+            <span class="contact__label">University Email</span>
+            <span class="contact__value">ssanjana@students.kennesaw.edu</span>
+          </a>
+          <a class="contact__item" href="mailto:silvia.aust.cse@gmail.com">
+            <span class="contact__label">Email</span>
+            <span class="contact__value">silvia.aust.cse@gmail.com</span>
+          </a>
+          <a class="contact__item" href="https://www.linkedin.com/in/silvia-sanjana-673a10172/" target="_blank" rel="noopener">
+            <span class="contact__label">LinkedIn</span>
+            <span class="contact__value">in/silvia-sanjana</span>
+          </a>
+          <div class="contact__item">
+            <span class="contact__label">Location</span>
+            <span class="contact__value">Marietta, Georgia, USA</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="references reveal">
+        <h3 class="references__title">References</h3>
+        <div class="references__grid">
+          <div class="reference">
+            <h4>Dr. Selena He</h4>
+            <p>Professor, Department of Computer Science<br />Kennesaw State University, GA, USA</p>
+            <a href="mailto:she4@kennesaw.edu">she4@kennesaw.edu</a>
+          </div>
+          <div class="reference">
+            <h4>Dr. Joy Li</h4>
+            <p>Associate Professor, Computer Game Design &amp; Development<br />Kennesaw State University, GA, USA</p>
+            <a href="mailto:yli49@kennesaw.edu">yli49@kennesaw.edu</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span>© <span id="year"></span> Silvia Sanjana</span>
+      <span>Computer Science · AI Research</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
